@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny's Budget Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+<body>
+    <section class="nav">
+        <h2>Johnny's Budget Calculator</h2>
+    </section>
+    <hr>
+    <section class="info">
+        <p>This calculator will help you divide your money into three different sections, Needs, wants, and savings!</p>
+    </section>
+    <!-- This section is for the income section; when styling to move the extra income below monthly net, style using income2 -->
+    <section id="maincontainer">
+        <section id="inputcontainer">
+            <section class="income">
+                <h3>Income</h3>
+                <hr>
+                <form class="income2">
+                    <section>
+                        <label for="monthly">Monthly Net Income:</label>
+                        <input type="text" id="monthly" name="monthly" placeholder="Insert...">
+                    </section>
+                    <section>
+                        <label for="extra">Extra Income:</label>
+                        <input type="text" id="extra" name="extra" placeholder="Insert...">
+                    </section>
+                </form>
+            </section>
+            <!-- End of Income -->
+            <!-- Expenses section -->
+            <section>
+                <section class="expenses">
+                    <h3>Expenses</h3>
+                    <hr>
+                    <form class="expenses2">
+                        <section>
+                            <label for="housing">Housing:</label>
+                            <input type="text" id="housing" name="housing" placeholder="Insert...">
+                        </section>
+                        <section>
+                            <label for="utilities">Utilities</label>
+                            <input type="text" id="Utilities" name="utilities" placeholder="Insert...">
+                        </section>
+                        <section>
+                            <label for="transportation">Transportation:</label>
+                            <input type="text" id="transportation" name="transportation" placeholder="Insert...">
+                        </section>
+                        <section><label for="groceries">Groceries:</label>
+                            <input type="text" id="groceries" name="groceries" placeholder="Insert...">
+                        </section>
+                        <section><label for="debt">Debt Repayment:</label>
+                            <input type="text" id="debt" name="debt" placeholder="Insert...">
+                        </section>
+                        <section><label for="medical">Medical:</label>
+                            <input type="text" id="medical" name="medical" placeholder="Insert...">
+                        </section>
+                        <section><label for="savings">Savings:</label>
+                            <input type="text" id="savings" name="savings" placeholder="Insert...">
+                        </section>
+                        <section><label for="others">Others:</label>
+                            <input type="text" id="others" name="others" placeholder="Insert...">
+                        </section>
+                        <section><label for="entertainment">Entertainment.</label>
+                            <input type="text" id="entertainment" name="entertainment" placeholder="Insert...">
+                        </section>
+                    </form>
+                </section>
+            </section>
+        </section>
+        <!-- End of expenses -->
+        <!-- Needs wants savings -->
+        <section class="results">
+            <section class="nws">
+
+                <h2 class="bottom"><strong>Results:</strong> </h2>
+
+
+            </section>
+            <button>ESTIMATE</button>
+        </section>
+    </section>
+
+    <section id="misc">
+        <a href="/careers.html">Career Pathways...</a>
+        <section id="eecucontainer">
+            <img id="eecu"
+                src="https://resource.digitalinsight.com/branding/39/05039/img/05039-logo-lg-md-publish.png?v=1517872939974"
+                alt="eecu logo">
+        </section>
+    </section>
+    <script src="myscripts.js"></script>
+
+</body>
+
+</html>
